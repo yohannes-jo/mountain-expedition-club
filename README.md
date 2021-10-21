@@ -1,2 +1,2 @@
 # mountain-expedition-club
-One of my first sites which included CSS
+One of my first sites which include CSS
