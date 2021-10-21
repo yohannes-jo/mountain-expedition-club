@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Crete Round', serif;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(54, 50, 92);
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
+.content-0 {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(180deg, 
+                                    rgba(128,128,128,0.3) 0, 
+                                    rgba(255,255,255,1) 100%),
+                      url("images/header-box.jpg");
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 80px;
+    left: 47%;
+}
+
+.title {
+    text-align: center;
+    padding: 300px;
+}
+
+
+.section-2 {
+    background-image: linear-gradient(180deg, 
+                                    rgba(255,255,255,1), 
+                                    rgba(95, 94, 94, 0.3)),
+                      url("images/body.jpg");
+    background-size: cover;
+}
+
+.content-1 {
+    display: grid;
+    grid-template-columns: 1 2;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 50px;
+}
+
+.content-2 {
+    display: grid;
+    grid-template-columns: 1 1;
+    margin: 50px;
+}
+
+.content-3 {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-1-head, .content-2-head {
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.item1, .item2 {
+    display: block;
+}
+
+.content-3 img {
+    width: 300px;
+    height: 300px;
+}
+
+.content-3 .item1, .item2, .item3 {
+    flex-basis: 33.3%;
+    padding: 10px;
+}
+
+.content-3 .item2 {
+    margin-top: 50px;
+}
+
