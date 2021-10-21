@@ -50,8 +50,8 @@ h3 {
 
 .section-2 {
     background-image: linear-gradient(180deg, 
-                                    rgba(255,255,255,1), 
-                                    rgba(95, 94, 94, 0.3)),
+                                    rgb(255, 255, 255), 
+                                    rgba(179, 76, 7, 0.3)),
                       url("images/body.jpg");
     background-size: cover;
 }
@@ -89,7 +89,6 @@ h3 {
 
 .content-3 img {
     width: 300px;
-    height: 300px;
 }
 
 .content-3 .item1, .item2, .item3 {
