@@ -17,7 +17,7 @@ a {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 60px;
 }
 
 h3 {
@@ -36,15 +36,9 @@ h3 {
     background-size: cover;
 }
 
-.logo {
-    position: absolute;
-    top: 80px;
-    left: 47%;
-}
-
 .title {
     text-align: center;
-    padding: 300px;
+    padding: 200px;
 }
 
 
